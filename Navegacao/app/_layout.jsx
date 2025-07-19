@@ -21,6 +21,14 @@ export default function RootLayout() {
           name="user"
           options={{ headerTitle: "Usuarios" }}
         />
+          <Stack.Screen
+            name="products/index"
+            options={{ headerTitle: "Produtos" }}
+          />
+        <Stack.Screen
+          name="products/[id]"
+          options={{ headerTitle: "Produtos" }}
+        />
         <Stack.Screen
           name="+not-found"
           options={{ headerTitle: "Erro" }}
