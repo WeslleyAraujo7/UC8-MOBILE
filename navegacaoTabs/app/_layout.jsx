@@ -12,9 +12,9 @@ export default function RootLayout() {
           headerTitleStyle: { fontWeight: "bold" },
         }}
       >
-        
-        <Stack.Screen name="(tabs)" options={{ headerShown: "Home" }} />
-     
+    
+
+        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       </Stack>
     </>
   );
